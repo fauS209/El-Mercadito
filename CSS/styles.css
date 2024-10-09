@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+    background-image: url(/Images/mesa-madera-entorno-mercado-borroso_1207264-3739.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-1 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(142, 233, 175);
+    text-align: center;
+}
+
+.box-2 {
+    width: 80%;
+    max-width: 600px;
+    height: 400px;
+    background-image: url(/Images/logo.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+
+}
+
+input {
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: transparent;
+    
+}
