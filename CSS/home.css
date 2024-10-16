@@ -1,5 +1,4 @@
 @media (max-width: 767px) {
-    /* Apply styles here, e.g., */
     .navbar-nav {
       flex-direction: column;
     }
@@ -7,9 +6,23 @@
       font-size: 16px;
     }
   }
+
+  .navbar-toggler-icon {
+    font-size: 1.5rem;
+  }
   
-.p1 {
-    color: rgb(0, 0, 0);  /*ajustes card-title*/
+
+  body {
+    background-image: url('/Images/mesa-madera-entorno-mercado-borroso_1207264-3739.jpg');
+    background-size: cover; /* cubrir todo el área con imagen */
+    background-position: center;     /* centra la imagen */
+    background-repeat: no-repeat;   /* evita que la imagen se repita */
+    height: 100vh;
+  }
+
+  /*ajustes card-title*/
+.p1 {       
+    color: rgb(0, 0, 0);  
     font-size: 25px;
     font-style: oblique;
     font-weight: bold;
@@ -18,8 +31,7 @@
 }
 
 .bodytext {
-    margin-left: -10%;
-    width: 40;
+    width: 50;
     color: rgb(255, 255, 255);   /*color del texto*/
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -28,15 +40,25 @@
 }
 
 .card-body { 
-    width: 350px;   /*ancho del texto*/
+    background-color: transparent;
+    width: 300px;   /*ancho del texto*/
+    padding: 20px;
 
 }
 
 .card {
-
+    width: 25rem;
+    background-color: transparent;
+    border-color: none;
     justify-content: center;
     text-align: center;
-    background-color: transparent;
+    margin: auto;
+    width: 20rem;
+    height: 50rem;
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
 }
 .navbar-nav{
     font-size: 20px;
