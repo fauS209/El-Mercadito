@@ -1,3 +1,13 @@
+@media (max-width: 767px) {
+    /* Apply styles here, e.g., */
+    .navbar-nav {
+      flex-direction: column;
+    }
+    .nav-link {
+      font-size: 16px;
+    }
+  }
+  
 .p1 {
     color: rgb(0, 0, 0);  /*ajustes card-title*/
     font-size: 25px;
